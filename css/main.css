@@ -1,0 +1,53 @@
+.timeline-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-item-vertical {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.timeline-item-vertical img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+
+.contact-info i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.map-iframe {
+    border: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.footer {
+    background-color: #333;
+    /* Dark background color */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
